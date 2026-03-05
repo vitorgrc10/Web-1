@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Formularios</title>
-    </head>
-  <body>
+
+<head>
+    <title>Formularios</title>
+</head>
+
+<body>
     <ul>
         <li>
             <a href="index.html">Home</a>
-         </li>
-         
-         <li>
+        </li>
+
+        <li>
             <a href="lista.html">Listas</a>
-         </li>
-    
+        </li>
+
         <li>
             <a href="table.html">Tabelas</a>
         </li>
@@ -20,46 +22,124 @@
         <li>
             <a href="img.html">Imagens</a>
         </li>
-      </ul>  
+    </ul>
 
-      <h2>Formularios</h2>  
-      
-          <form>
-          <div>
-          <label for="name">Nome:  </label> 
-          <input type="text">
-          </div>
+    <h2>Formularios</h2>
 
-          <br>
-          <div>
-          <label for="idade">Idade: </label>
-          <input type="number" min="0" max="200">
-          <div>
-          <br>
-
-          <div>
-          <label for="usuario">usuario: </label>
-          <input type="text">
-          </div>
-          <br>
-
-          <div>
-          <label for="senha">Senha: </label>
-          <input type="password">
-          </div>
-          <br>
-
-          </form>
-          <div>
-            <label for="dataEvento">Data do Evento: </label>
-            <input type="date">
-
-          <br>
-          <form action="https://www.unipam.edu.br/">
-          <button type="submit" style="color: blue;">Enviar</button>
-          <br>
-        </form>
+    <form>
+        <div>
+            <label for="name">Nome: </label>
+            <input type="text">
         </div>
 
-    </body>
-  </html>
+        <br>
+        <div>
+            <label for="idade">Idade: </label>
+            <input type="number" min="0" max="200">
+            <div>
+                <br>
+
+                <div>
+                    <label for="Usuario">Usuario: </label>
+                    <input type="text">
+                </div>
+                <br>
+
+                <div>
+                    <label for="senha">Senha: </label>
+                    <input type="password">
+                </div>
+                <br>
+
+    </form>
+    <div>
+        <label for="dataEvento">Data do Evento: </label>
+        <input type="date">
+    </div>
+    <br>
+
+    <div>
+        <label for="">
+            Telefone:
+            <input type="tel" required placeholder="(XX)XXXXX-XXXX">
+        </label>
+    </div>
+    <br>
+
+    <div>
+        <label for="Email">Email
+            <input type="Email" required>
+        </label>
+    </div>
+    <br>
+
+    <div>
+        <label for="peso">Peso:
+            <input type="number" min="0" max="200" step="0.5">
+        </label>
+    </div>
+    <br>
+
+    <div>
+        <label for="volume">
+            <input type="range" min="0" max="100" step="10">
+        </label>
+    </div>
+    <br>
+
+    <div>
+        <fieldset>
+            <legend>Estado Civil</legend>
+            <p>
+                <label>
+                    <input type="radio" name="est_civil" value="casado"> Casado:
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="est_civil" value="solteiro"> Solteiro:
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="est_civil" value="divorciado"> Divorciado:
+                </label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Produtos</legend>
+            <P>
+                <label>
+                    <input type="checkbox" name="computador" value="computador"> Computador
+                    <br>
+                    <input type="checkbox" name="monitor" value="monitor"> Monitor
+                    <br>
+                    <input type="checkbox" name="mouse" value="mouse"> Mouse
+                    <br>
+                    <input type="checkbox" name="teclado" value="teclado"> Teclado
+                    <br>
+                    <input type="checkbox" name="mouse pad" value="mouse pad"> Mouse Pad
+                </label>
+            </P>
+        </fieldset>
+    </div>
+    <br>
+
+    <div>
+        <label>
+            Deixe sua sugestão:
+            <textarea cols="30" rows="5"></textarea>
+        </label>
+    </div>
+
+    <div>
+        <form action="https://www.unipam.edu.br/">
+            <button type="submit" style="color: blue;">Enviar</button>
+            <br>
+        </form>
+    </div>
+
+</body>
+
+</html>
