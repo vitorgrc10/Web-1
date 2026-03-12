@@ -28,33 +28,38 @@
 
     <form>
         <div>
-            <label for="name">Nome: </label>
+            <label for="name">Nome: 
             <input type="text">
+            </label>
         </div>
 
         <br>
         <div>
-            <label for="idade">Idade: </label>
+            <label for="idade">Idade: 
             <input type="number" min="0" max="200">
+            </label>
             <div>
                 <br>
 
                 <div>
-                    <label for="Usuario">Usuario: </label>
+                    <label for="Usuario">Usuario: 
                     <input type="text">
+                    </label>
                 </div>
                 <br>
 
                 <div>
-                    <label for="senha">Senha: </label>
+                    <label for="senha">Senha: 
                     <input type="password">
+                    </label>
                 </div>
                 <br>
 
     </form>
     <div>
-        <label for="dataEvento">Data do Evento: </label>
+        <label for="dataEvento">Data do Evento: 
         <input type="date">
+        </label>
     </div>
     <br>
 
@@ -125,6 +130,17 @@
         </fieldset>
     </div>
     <br>
+
+        <p>
+            <label for="">
+                Site: <input type="url" list="sites" name="link">
+            </label>
+        </p>
+        <datalist id="sites">
+            <option label="Youtube" value="https://www.youtube.com/"></option>
+            <option label="DIscord" value="https://discord.com/"></option>
+            <option label="Instagram" value="https://www.instagram.com/"></option>
+        </datalist>
 
     <div>
         <label>
