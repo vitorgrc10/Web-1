@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding-top: 70px;
+
+}
+
+.topbar {
+    display: Flx;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, rgb(129, 1, 1), #550169)
+    color: white;
+    position: fixed;
+    top 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.topbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* BOTÕES */
+.nav-btn {
+display: inline-block;
+margin-right: 10px;
+padding: 8px; 15px;
+background: #80000;
+color: white;
+text-decoration: none;
+font-weight: bold;
+border-radius: 5px;
+trasition: 0.2;
+
+}
+
+.nav-btn:nover {
+background: #800
+}
