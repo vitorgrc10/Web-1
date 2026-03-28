@@ -1,0 +1,27 @@
+*{
+    color: rgb(9, 194, 3);
+    font-family:'Times New Roman';
+}
+
+h1{
+    background-color: black;
+    color: white;
+    
+}
+
+img {
+    width: 100%;
+}
+
+.p1 {
+    text-align: center;
+}
+
+.p2 {
+    text-align: right;
+}
+
+.p3 {
+    text-align: justify;
+    width: 200px;
+}
