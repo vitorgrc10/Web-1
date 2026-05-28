@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+
+    <script>
+        function exFuncao(nome){
+            document.getElementById("cod2").innerHTML = `Disciplina: Meu nome é:  ${nome}`;
+        }
+    </script>
+</head>
+<body>
+    <h1>Aula sobre JavaScript no HTML</h1>
+
+    <button onclick="alert('Ola Mundo!')">Clique aqui</button>
+
+    <button onclick="exFuncao('Vitor')">Disciplina</button>
+
+    <p id="cod1"></p>
+
+    <p id="cod2">Disciplina</p>
+
+    <script>
+        document.getElementById("cod1").innerHTML = "Olá Mundo!"
+    </script>
+</body>
+</html>

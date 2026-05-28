@@ -7,9 +7,9 @@ let frase = saudacao("Vitor");
 console.log(frase);
 
 
-function soma(a, b){
+function multiplicacao(a, b){
     return A * B;
 }
 
-let frase = soma(4 * 5);
-console.log("O resultado da some é: " + resultado);
+let resultado = multiplicacao(4 * 5);
+console.log('O resultado da multiplicacao é: ${resultado}');
